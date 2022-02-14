@@ -112,7 +112,7 @@ int main(){
             cout<<"Insira o expoente 'e': ";
             cin>>e;
             desencriptar();
-            ofstream out("mensagem_desencripatada.xtxt");
+            ofstream out("mensagem_desencripatada.txt");
             out<<"Mensagem Desencriptada: "<<mensagemd;
             out.close();
             cout<<"Gerada a mensagem desencriptada, verifique em mensagem_desencripatada.txt"<<endl;
